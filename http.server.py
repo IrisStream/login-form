@@ -14,7 +14,7 @@ def GET_request():
 def POST_request():
     pass
 
-def send_reponse():
+def send_response():
     pass
 
 def handle_client(conn,addr):
