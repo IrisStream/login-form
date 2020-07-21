@@ -1,30 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <html>
+    <head>
+        <meta name="viewport" content="width: device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles_index.css">
+<!-- <style> -->
+<!-- body{ -->
+<!--     background-image: url('img/cat-background.jpg'); -->
+<!--     background-repeat: no-repeat; -->
+<!--     background-attachment: fixed; -->
+<!--     background-size: cover; -->
+<!--     font-size: 20px; -->
+<!-- } -->
+<!-- </style> -->
+    </head>
+    <body>
+        <form action="info.html" method="POST">
+            <div id="avatar-container">
+                <img src="img/img_avt2.png" alt="Son dep trai" id="avatar">	
+            </div>												
+            <div id="login-box">
+                <label for="username"><b>Username</b></label>
+                <input type="text" name="username" required>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles_index.css">
-</head>
+                <label for="password"><b>Password</b></label>
+                <input type="password" name="password" required>
 
-<body>
-
-    <h2>Login Form</h2>
-    <form action="info.html" method="post">
-        <div class="imgcontainer">
-            <img class="avatar" src="img/img_avatar.jpg" alt="Avatar">
-        </div>
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Username" name="uname" required>
-
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Password" name="psw" required>
-
-            <button type="submit">Login</button>
-            <label><input type="checkbox" name="remember"> Remember me</label>
-        </div>
-    </form>
-
-</body>
-
-</html>
+                <button type="submit">login</button>
+            </div>
+        </form>	
+    </body>
+</html>	
